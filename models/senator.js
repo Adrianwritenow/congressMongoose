@@ -28,6 +28,14 @@ senatorSchema.statics.findAndSort = function (anyRestriction, whatToRender){
       whatToRender(results);
     });
 }
+// 
+// senatorSchema.statics.deleteSenator = function(anyRestriction,redirect){
+//   this
+//   .deleteOne(anyRestriction)
+//   then(function(){
+//     whatToRender()
+//   })
+// }
 
 
 
